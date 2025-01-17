@@ -1,0 +1,105 @@
+@import "bootstrap/scss/bootstrap";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #213547;
+    font-family: sans-serif;
+}
+
+#Hero {
+    height: 900px;
+    width: 100%;
+
+    background-image: url(../logos/developer.jpg);
+
+    h1 {
+        font-size: 35px;
+        height: 0%;
+        animation: mymove 2s linear 0s infinite;
+    }
+
+
+}
+
+@keyframes mymove {
+    from {
+        width:  0%;
+        background: black;
+    }
+
+    to {
+        background: red;
+        width: 100%;
+    }
+}
+
+#name{
+    font-size: 35px;
+    margin-top: 0px;
+    padding-top: 20px;
+  }
+  
+  /* css for the profession in introduction */
+  #profession
+  {
+    margin-top: -25px;
+    color: aqua;
+    font-size: 20px;
+  }
+  
+  /* css for skills in introduction */
+  #skills{
+    letter-spacing: 1px;
+    font-size: 19px;
+  }
+
+#Projects{
+    section{
+        box-shadow: 0 4px 10px 0 black;
+        strong{
+            color: aqua
+        };
+
+        img{
+            height: auto;
+            width: auto;
+            margin: auto;
+            border: 1px white;
+            box-shadow: 0 4px 10px 0 black;
+
+        }
+    }
+}
+
+#Contacts{
+    .button1{
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-top: 15px;
+      }
+      
+      /* css for button while hovering */
+      .button1:hover {
+        background-color: aqua;
+        color: black;
+      }
+      
+    
+}
+.logo{
+    height: 50px;
+     width: 50px; 
+     border-radius: 50%; 
+  }
+  
+  
